@@ -223,7 +223,7 @@ footer nav a {
     font-weight: bold;
     font-size: 10px;
     background-color: white;
-    margin: 10spx 0;
+    margin: 10px 0;
 }
 
 /* Last two cards extra margin-top */
@@ -242,3 +242,5 @@ footer nav a {
     padding-left: 20px;
     margin-bottom: 35px;
 }
+
+/*MVP completed*/

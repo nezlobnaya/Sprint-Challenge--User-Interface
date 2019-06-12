@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+/*Navigation*/
+.navigation-style {
+	display:flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 20px 0 40px 0;
+}
+
+.navigation-style a {
+	color: black;
+  	text-decoration: none;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +126,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +189,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Styling */
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.text-container-about {
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+}
+/* Middle content  */
+.middle-content-about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    width: 46%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.card h3 {
+    padding-top: 10px;
+}
+.card button {
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+/* Last two cards extra margin-top */
+.card:nth-last-child(-n+2) {
+    margin-top: 30px;
+}
+
+/* Bottom content */
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta {
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+/*MVP completed*/
